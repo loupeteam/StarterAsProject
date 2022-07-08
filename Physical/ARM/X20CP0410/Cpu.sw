@@ -63,5 +63,8 @@
     <LibraryObject Name="sys_lib" Source="Libraries._AS.sys_lib.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="AsBrWStr" Source="Libraries._AS.AsBrWStr.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="visapi" Source="Libraries._AS.visapi.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="Acp10man" Source="Libraries.Motion.Acp10man.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="Acp10par" Source="Libraries.Motion.Acp10par.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="NcGlobal" Source="Libraries.Motion.NcGlobal.lby" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>
