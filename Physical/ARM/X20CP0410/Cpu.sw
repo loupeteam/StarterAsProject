@@ -11,6 +11,27 @@
   <TaskClass Name="Cyclic#6" />
   <TaskClass Name="Cyclic#7" />
   <TaskClass Name="Cyclic#8" />
+  <NcDataObjects>
+    <NcDataObject Name="gmcipvar" Source="Libraries.Motion.GmcIpUserConfig.gmcipvar.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipfun" Source="Libraries.Motion.GmcIpUserConfig.gmcipfun.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipfub" Source="Libraries.Motion.GmcIpUserConfig.gmcipfub.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipubr" Source="Libraries.Motion.GmcIpUserConfig.gmcipubr.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipusm" Source="Libraries.Motion.GmcIpUserConfig.gmcipusm.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipui" Source="Libraries.Motion.GmcIpUserConfig.gmcipui.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipus" Source="Libraries.Motion.GmcIpUserConfig.gmcipus.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipuc" Source="Libraries.Motion.GmcIpUserConfig.gmcipuc.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipsys" Source="Libraries.Motion.GmcIpConfig.gmcipsys.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmciplbr" Source="Libraries.Motion.GmcIpConfig.gmciplbr.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipcbr" Source="Libraries.Motion.GmcIpConfig.gmcipcbr.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmciplsm" Source="Libraries.Motion.GmcIpConfig.gmciplsm.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipcsm" Source="Libraries.Motion.GmcIpConfig.gmcipcsm.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipcfg" Source="Libraries.Motion.GmcIpConfig.gmcipcfg.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipiec" Source="Libraries.Motion.GmcIpConfig.gmcipiec.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmciplog" Source="Libraries.Motion.GmcIpConfig.gmciplog.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipesm" Source="Libraries.Motion.GmcIpConfig.gmcipesm.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipmxd" Source="Libraries.Motion.GmcIpConfig.gmcipmxd.dob" Memory="UserROM" Language="Cnc" />
+    <NcDataObject Name="gmcipmx" Source="Libraries.Motion.GmcIpConfig.gmcipmx.dob" Memory="UserROM" Language="Cnc" />
+  </NcDataObjects>
   <Binaries>
     <BinaryObject Name="FWRules" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="TCData" Source="" Memory="SystemROM" Language="Binary" />
@@ -66,5 +87,11 @@
     <LibraryObject Name="Acp10man" Source="Libraries.Motion.Acp10man.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="Acp10par" Source="Libraries.Motion.Acp10par.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="NcGlobal" Source="Libraries.Motion.NcGlobal.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="Acp10sdc" Source="Libraries.Motion.Acp10sdc.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="Acp10sim" Source="Libraries.Motion.Acp10sim.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="Acp10_MC" Source="Libraries.Motion.Acp10_MC.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="Arnc0man" Source="Libraries.Motion.Arnc0man.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="Arnc0mx" Source="Libraries.Motion.Arnc0mx.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="TRF_LIB" Source="Libraries.Motion.TRF_LIB.lby" Memory="UserROM" Language="binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>
