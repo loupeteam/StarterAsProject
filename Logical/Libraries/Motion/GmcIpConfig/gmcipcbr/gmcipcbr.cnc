@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?ARNC0 Version="5.12.2"?>
+<?ARNC0 Version="5.15.1"?>
 <Root LangModule="ailgcode" Version="1.0">
   <AxesSpec>
     <!-- recommend configuring long names first -->

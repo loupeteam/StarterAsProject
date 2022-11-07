@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?ARNC0 Version="5.12.2"?>
+<?ARNC0 Version="5.15.1"?>
 <Root LangModule="ailgcode" Version="1.0">
   <AxesSpec>
     <!-- specify empty axes section to avoid warning -->
@@ -650,6 +650,7 @@
     <TKG_INTEGER IsPattern="Yes">\d+</TKG_INTEGER>
     <TKG_NUMBER_EXP IsPattern="Yes">e:[\s\d\+\-\.]</TKG_NUMBER_EXP>
     <TKG_ASSIGN_EQ>=</TKG_ASSIGN_EQ>
+    <TKG_ARITH_BINARY_PLUS>+</TKG_ARITH_BINARY_PLUS>
     <TKG_ARITH_BINARY_MINUS>-</TKG_ARITH_BINARY_MINUS>
     <TKG_M_CODE_PREFIX IsPattern="Yes">MP:\d</TKG_M_CODE_PREFIX>
   </ParserData>
