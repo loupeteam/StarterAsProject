@@ -24,6 +24,6 @@
     <Build GccVersion="6.3.0" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Safety SafetyRelease="0.0" />
-    <Vc FirmwareVersion="V4.72.3" />
+    <Vc FirmwareVersion="V4.72.5" />
   </Configuration>
 </Cpu>
