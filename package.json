@@ -8,6 +8,9 @@
   },
   "author": "Loupe",
   "license": "MIT",
+  "lpm": {
+    "type": "project"
+  },
   "lpmConfig": {
     "deploymentConfigs": [
       "Intel",

@@ -14,27 +14,6 @@
   <DataObjects>
     <DataObject Name="Acp10sys" Source="" Memory="UserROM" Language="Binary" />
   </DataObjects>
-  <NcDataObjects>
-    <NcDataObject Name="gmcipvar" Source="GmcIpUserConfig.gmcipvar.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipfun" Source="GmcIpUserConfig.gmcipfun.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipfub" Source="GmcIpUserConfig.gmcipfub.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipubr" Source="GmcIpUserConfig.gmcipubr.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipusm" Source="GmcIpUserConfig.gmcipusm.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipui" Source="GmcIpUserConfig.gmcipui.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipus" Source="GmcIpUserConfig.gmcipus.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipuc" Source="GmcIpUserConfig.gmcipuc.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipsys" Source="GmcIpConfig.gmcipsys.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmciplbr" Source="GmcIpConfig.gmciplbr.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipcbr" Source="GmcIpConfig.gmcipcbr.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmciplsm" Source="GmcIpConfig.gmciplsm.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipcsm" Source="GmcIpConfig.gmcipcsm.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipcfg" Source="GmcIpConfig.gmcipcfg.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipiec" Source="GmcIpConfig.gmcipiec.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmciplog" Source="GmcIpConfig.gmciplog.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipesm" Source="GmcIpConfig.gmcipesm.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipmxd" Source="GmcIpConfig.gmcipmxd.dob" Memory="UserROM" Language="Cnc" />
-    <NcDataObject Name="gmcipmx" Source="GmcIpConfig.gmcipmx.dob" Memory="UserROM" Language="Cnc" />
-  </NcDataObjects>
   <Binaries>
     <BinaryObject Name="udbdef" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="TCData" Source="" Memory="SystemROM" Language="Binary" />
@@ -79,8 +58,8 @@
     <LibraryObject Name="DataObj" Source="Libraries._AS.DataObj.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="dvframe" Source="Libraries._AS.dvframe.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="FileIO" Source="Libraries._AS.FileIO.lby" Memory="UserROM" Language="binary" Debugging="true" />
-    <LibraryObject Name="MTBasics" Source="Libraries.MTBasics.lby" Memory="UserROM" Language="binary" Debugging="true" />
-    <LibraryObject Name="MTLookUp" Source="Libraries.MTLookUp.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="MTBasics" Source="Libraries.Motion.MTBasics.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="MTLookUp" Source="Libraries.Motion.MTLookUp.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="MTTypes" Source="Libraries._AS.MTTypes.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="LoopConR" Source="Libraries._AS.LoopConR.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="operator" Source="Libraries._AS.operator.lby" Memory="UserROM" Language="binary" Debugging="true" />
@@ -89,15 +68,15 @@
     <LibraryObject Name="sys_lib" Source="Libraries._AS.sys_lib.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="AsBrWStr" Source="Libraries._AS.AsBrWStr.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="visapi" Source="Libraries._AS.visapi.lby" Memory="UserROM" Language="Binary" Debugging="true" />
-    <LibraryObject Name="Acp10man" Source="Libraries.Acp10man.lby" Memory="UserROM" Language="Binary" Debugging="true" />
-    <LibraryObject Name="Acp10par" Source="Libraries.Acp10par.lby" Memory="UserROM" Language="Binary" Debugging="true" />
-    <LibraryObject Name="NcGlobal" Source="Libraries.NcGlobal.lby" Memory="UserROM" Language="Binary" Debugging="true" />
-    <LibraryObject Name="Acp10sdc" Source="Libraries.Acp10sdc.lby" Memory="UserROM" Language="binary" Debugging="true" />
-    <LibraryObject Name="Acp10sim" Source="Libraries.Acp10sim.lby" Memory="UserROM" Language="binary" Debugging="true" />
-    <LibraryObject Name="Acp10_MC" Source="Libraries.Acp10_MC.lby" Memory="UserROM" Language="binary" Debugging="true" />
-    <LibraryObject Name="Arnc0man" Source="Libraries.Arnc0man.lby" Memory="UserROM" Language="binary" Debugging="true" />
-    <LibraryObject Name="Arnc0mx" Source="Libraries.Arnc0mx.lby" Memory="UserROM" Language="binary" Debugging="true" />
-    <LibraryObject Name="TRF_LIB" Source="Libraries.TRF_LIB.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="Acp10man" Source="Libraries.Motion.Acp10man.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="Acp10par" Source="Libraries.Motion.Acp10par.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="NcGlobal" Source="Libraries.Motion.NcGlobal.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="Acp10sdc" Source="Libraries.Motion.Acp10sdc.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="Acp10sim" Source="Libraries.Motion.Acp10sim.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="Acp10_MC" Source="Libraries.Motion.Acp10_MC.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="Arnc0man" Source="Libraries.Motion.Arnc0man.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="Arnc0mx" Source="Libraries.Motion.Arnc0mx.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="TRF_LIB" Source="Libraries.Motion.TRF_LIB.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="powerlnk" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>
