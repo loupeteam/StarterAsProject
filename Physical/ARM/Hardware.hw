@@ -8,6 +8,9 @@
       <Parameter ID="ActivateDevice" Value="1" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="AsProject_ARM" />
+    <Parameter ID="PermanentPvSize" Value="50000" />
+    <Parameter ID="RemanentGlobalPvSize" Value="10000" />
+    <Parameter ID="VolatileGlobalPvSize" Value="500000" />
     <Parameter ID="TimerDeviceType" Value="SWIOTIMER" />
     <Parameter ID="Cyclic1Duration" Value="10000" />
     <Parameter ID="Cyclic1Tolerance" Value="10000" />
