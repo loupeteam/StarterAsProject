@@ -1,6 +1,6 @@
 {
   "name": "@loupeteam/librarybuilderproject",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "description": "LibraryBuilderProject is a minimal Automation studio project used to build libraries for Intel and ARM configurations",
   "repository": {
     "type": "git",
